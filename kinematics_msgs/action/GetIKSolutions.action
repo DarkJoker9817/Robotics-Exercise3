@@ -1,0 +1,11 @@
+# This action defines the needed components for computing the inverse kinematics
+# and defines the feedback as a part of the result.
+
+# Goal definition
+geometry_msgs/Pose end_effector_pose
+---
+# Result definition
+moveit_msgs/RobotState[] ik_solutions
+---
+# Feedback Definition
+moveit_msgs/RobotState ik_solution

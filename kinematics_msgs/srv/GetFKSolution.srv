@@ -1,0 +1,7 @@
+# This is a service message definition for a forward kinematics solver
+
+# This message contains information about the robot at a specific point in time.
+moveit_msgs/RobotState robot_state
+---
+# This message contains a Pose (position and orientation) for the end-effector
+geometry_msgs/Pose end_effector_pose
